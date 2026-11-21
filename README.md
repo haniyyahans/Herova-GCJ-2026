@@ -1,16 +1,23 @@
-# React + Vite
+# HEROVA
+Temukan teman kolaborasi. Tumbuhkan potensimu.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HEROVA adalah platform web untuk membantu mahasiswi saling menemukan teman kolaborasi berdasarkan skill, minat, dan program studi. Pengguna bisa mencari anggota lewat nama atau skill, menyaring direktori, dan mendapat rekomendasi teman yang cocok.
 
-Currently, two official plugins are available:
+Proyek ini dibuat oleh Kelompok 4 untuk Girls Code Jam 2026.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Fitur
+- Landing page yang memperkenalkan HEROVA dan alur penggunaannya.
+- Login untuk masuk ke aplikasi.
+- Beranda dengan sapaan personal, pencarian nama atau skill, pintasan kategori skill, dan rekomendasi teman.
+- Direktori anggota HEROVA dengan:
+ - pencarian berdasarkan nama mahasiswi
+ - filter program studi
+ - filter kategori skill
+ - tombol reset filter dan tampilan kosong saat tidak ada hasil
+- Kartu profil berisi inisial, program studi, angkatan, bio singkat, dan tag skill.
+- Maskot peri bunga hibiscus berbentuk SVG/gambar, tampil di beranda, direktori, dan halaman lainnya.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Tim
+- Diah Ayu Rahmadani
+- Alifya Dzikrina Hasya
+- Zahra Nurul Haniyyah Anas
